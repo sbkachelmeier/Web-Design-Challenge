@@ -31,8 +31,6 @@
                         <a class="dropdown-item" href="hum_vis.html">Humidity</a>
                         <a class="dropdown-item" href="cloud_vis.html">Cloudiness</a>
                         <a class="dropdown-item" href="wind_vis.html">Wind Speed</a>
-
-
                     </div>
                 </li>
                 <li class="nav-item active">
@@ -41,27 +39,25 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Data</a>
                 </li>
-
-
             </ul>
-
         </div>
     </nav>
-  <!-- Main section -->
-    <div class="container" id=containerstyle>
+
+      <!-- Main section -->
+      <div class="container" id=containerstyle>
         
         <div class="row">
             <div class="col-md-8">
                 <section style= "background-color: white">
-                <h1>Summary: Latitude vs X</h1>
-                <img src="visualizations/temp_plot.png" id=tempplot></img>
+                <h1>Summary: Latitude vs Humidity</h1>
+                <img src="visualizations/humid_plot.png" id=tempplot></img>
 
-                <p class="h4">The purpose of this project was to analyze how weather changes as you get closer
-                    to the equator. to accomplish this analysis, we first pulled data from the OpenweatherMap API to
-                    assemble a dataset on over 500 cities.</p>
+                <p class="h4">This plot looks at the relationship between latitude and percent humidity recorded on 08/28/2020.
+                    There does not appear to be a significant correlation between latitude or distance from the equator and humidity.
+                   
+                </p>
 
-                    <p class="h4">After the data was pulled, we used Matplotlib to plot and compare various aspects of the weather, including temperature, humidity, cloudiness, and wind speed, with the latitude cooordinates.
-                        This site contains the visualizations for these comparisons as well as explanations of any trends and correlations found. 
+                
 
                 </section>
             </div>
